@@ -19,7 +19,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import com.example.cowork.R
-import com.example.cowork.features.presentation.GreetingViewModel
+import com.example.cowork.features.greeting.presentation.GreetingViewModel
 import com.example.cowork.ui.theme.Grey8C
 import com.example.cowork.ui.theme.TextColor
 import com.example.cowork.utils.navigation.NavScreens

@@ -1,4 +1,4 @@
-package com.example.cowork.features.presentation
+package com.example.cowork.features.greeting.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
