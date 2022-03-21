@@ -1,7 +1,7 @@
 # CoworkApp
-## Compose Android Pet-Project
+Application for finding a place for coworking.
 
-## Tech Stack:
+## Tech Stack ⚙️:
 1. Android Compose
 2. Koin DI
 3. Navigation Component
@@ -11,7 +11,7 @@
 7. Room DB
 8. Ktor for client
 
-## Architecture patterns:
+## Architecture patterns 🔥:
 1. BDD Testing
 2. Clean Architecture 
 3. MVVM
