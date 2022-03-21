@@ -15,3 +15,6 @@ Application for finding a place for coworking.
 1. BDD Testing
 2. Clean Architecture 
 3. MVVM
+
+## Free Figma Design: 
+![image](https://user-images.githubusercontent.com/52754041/159224676-24c616a4-263e-423f-a32a-c328cb82f25c.png)
