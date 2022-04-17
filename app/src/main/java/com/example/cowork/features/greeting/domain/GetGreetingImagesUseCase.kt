@@ -1,6 +1,6 @@
 package com.example.cowork.features.greeting.domain
 
-import com.example.cowork.base.domain.IUseCase
+import com.example.core.domain.IUseCase
 import org.koin.core.annotation.Factory
 
 @Factory

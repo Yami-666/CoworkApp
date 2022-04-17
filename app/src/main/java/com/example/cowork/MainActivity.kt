@@ -13,9 +13,9 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.cowork.ui.screens.SplashScreen
-import com.example.cowork.ui.screens.greeting.GreetingViewPagerScreen
-import com.example.cowork.ui.screens.sign_in.SignInScreen
+import com.example.cowork.features.splash.ui.SplashScreen
+import com.example.cowork.features.greeting.ui.GreetingViewPagerScreen
+import com.example.cowork.features.sign_in.ui.SignInScreen
 import com.example.cowork.ui.theme.CoworkTheme
 import com.example.cowork.utils.navigation.NavScreens
 import com.google.accompanist.pager.ExperimentalPagerApi
