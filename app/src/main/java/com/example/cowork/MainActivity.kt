@@ -13,7 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import com.example.cowork.ui.screens.SplashScreen
+import com.example.cowork.ui.screens.splash.SplashScreen
 import com.example.cowork.ui.screens.greeting.GreetingViewPagerScreen
 import com.example.cowork.ui.screens.sign_in.SignInScreen
 import com.example.cowork.ui.theme.CoworkTheme

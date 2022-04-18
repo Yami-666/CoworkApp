@@ -1,4 +1,4 @@
-package com.example.cowork.ui.screens
+package com.example.cowork.ui.screens.splash
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
