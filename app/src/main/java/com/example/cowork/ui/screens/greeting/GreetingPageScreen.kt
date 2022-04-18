@@ -21,7 +21,7 @@ fun GreetingPageScreen(
     greetingTitle: String,
     content: String,
 ) {
-    Column {
+    Column(modifier = Modifier.fillMaxSize()) {
         Image(
             painter = greetingImage,
             contentDescription = "Room Image",
@@ -72,10 +72,22 @@ fun GreetingPageScreen(
                             .wrapContentHeight()
                             .fillMaxWidth(0.7f),
                         fontWeight = FontWeight.Medium,
-
                     )
                 }
             }
         }
     }
+}
+
+@Composable
+fun TitleText(
+    modifier: Modifier = Modifier,
+    text: String
+) {
+    Text(
+        text = text,
+        modifier = modifier,
+        fontSize = 24.sp,
+        fontWeight = FontWeight.Bold
+    )
 }

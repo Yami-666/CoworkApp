@@ -42,7 +42,10 @@ fun GreetingViewPagerScreen(navController: NavHostController) {
         val titles = viewModel.titles
         val content = viewModel.descriptionContents
 
-        HorizontalPager(count = pageCount, state = pagerState) { page ->
+        HorizontalPager(
+            count = pageCount,
+            state = pagerState,
+        ) { page ->
             if (images.value.isNotEmpty()) {
                 GreetingPageScreen(
                     greetingImage = painterResource(images.value[page]),

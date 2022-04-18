@@ -23,7 +23,6 @@ fun DotsIndicator(
         modifier = modifier
             .wrapContentWidth()
             .wrapContentHeight()
-
     ) {
 
         items(totalDots) { index ->
