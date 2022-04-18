@@ -19,6 +19,8 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavHostController
 import com.example.cowork.R
+import com.example.cowork.features.greeting.presentation.GreetingEvent
+import com.example.cowork.features.greeting.presentation.GreetingState
 import com.example.cowork.features.greeting.presentation.GreetingViewModel
 import com.example.cowork.ui.composables.DotsIndicator
 import com.example.cowork.ui.theme.Grey8C
@@ -37,6 +39,22 @@ fun GreetingViewPagerScreen(navController: NavHostController) {
     val pagerState = rememberPagerState()
     val composeScope = rememberCoroutineScope()
     val pageCount = 3
+    val state = viewModel.uiState.collectAsState()
+
+    when(state.value) {
+        is GreetingState.Initialize -> {
+
+        }
+        is GreetingState.Display -> {
+
+        }
+        is GreetingState.Error -> {
+
+        }
+        is GreetingState.Loading -> {
+
+        }
+    }
 
     Box(Modifier.fillMaxSize()) {
         val images = viewModel.images.collectAsState()
