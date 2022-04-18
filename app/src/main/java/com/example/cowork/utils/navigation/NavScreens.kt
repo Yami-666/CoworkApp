@@ -12,8 +12,9 @@ sealed class NavScreens(
     }
 
     object SplashScreen : NavScreens("SplashScreen")
-
     object GreetingScreen : NavScreens("GreetingScreen")
 
     object SignInScreen : NavScreens("SignInScreen")
+    object SignUpScreen : NavScreens("SignUpScreen")
+    object MainScreen : NavScreens("MainScreen")
 }
