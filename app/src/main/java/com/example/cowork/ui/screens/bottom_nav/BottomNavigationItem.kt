@@ -34,7 +34,7 @@ sealed class BottomNavigationItem(
 
     object Favorite : BottomNavigationItem(
         title = "Favorite",
-        icon = R.drawable.ic_bookmark,
+        icon = R.drawable.ic_favorite,
         route = NavScreens.BottomNavigationScreens.FavoriteScreen.route
     )
 }

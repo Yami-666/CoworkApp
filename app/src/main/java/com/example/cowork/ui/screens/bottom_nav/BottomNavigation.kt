@@ -33,17 +33,18 @@ fun BottomNavigation(navController: NavController) {
         BottomNavigationItem.Favorite
     )
 
-    BottomNavigation(
+    BottomAppBar(
         modifier = Modifier
             .fillMaxWidth()
             .clip(
-                RoundedCornerShape(
+                shape = RoundedCornerShape(
                     topStart = 16.dp,
                     topEnd = 16.dp,
                     bottomEnd = 0.dp,
                     bottomStart = 0.dp
                 )
             ),
+        elevation = 16.dp,
         backgroundColor = Color.White,
     ) {
         val navBackStackEntry by navController.currentBackStackEntryAsState()
