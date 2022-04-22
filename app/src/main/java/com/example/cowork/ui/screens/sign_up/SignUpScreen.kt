@@ -4,8 +4,8 @@ import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.*
-import androidx.compose.runtime.*
+import androidx.compose.material.Text
+import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.layout.ContentScale
@@ -14,9 +14,11 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.cowork.R
-import com.example.cowork.ui.screens.greeting.TitleText
 import com.example.cowork.ui.screens.sign_in.OAuthServices
-import com.example.cowork.ui.theme.*
+import com.example.cowork.ui.theme.Grey8C
+import com.example.cowork.ui.theme.commons.CoworkButton
+import com.example.cowork.ui.theme.commons.CoworkTextFieldWithTitle
+import com.example.cowork.ui.theme.commons.TitleText
 
 @Preview(showBackground = true, showSystemUi = true)
 @Composable
@@ -50,21 +52,21 @@ fun SignUpScreen() {
                         text = "Welcome,\nRegister To Access"
                     )
 
-                    CoworkTextField(
+                    CoworkTextFieldWithTitle(
                         title = "Your Name",
                         placeholder = "Your Awesome Name",
                     )
 
                     Spacer(modifier = Modifier.padding(vertical = 4.dp))
 
-                    CoworkTextField(
+                    CoworkTextFieldWithTitle(
                         title = "Email",
                         placeholder = "Youremail@email.com",
                     )
 
                     Spacer(modifier = Modifier.padding(vertical = 4.dp))
 
-                    CoworkTextField(
+                    CoworkTextFieldWithTitle(
                         title = "Password",
                         placeholder = "Password",
                         visualTransformation = PasswordVisualTransformation()
@@ -72,7 +74,7 @@ fun SignUpScreen() {
 
                     Spacer(modifier = Modifier.padding(vertical = 4.dp))
 
-                    CoworkTextField(
+                    CoworkTextFieldWithTitle(
                         title = "Password Again",
                         placeholder = "Password",
                         visualTransformation = PasswordVisualTransformation()

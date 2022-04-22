@@ -78,16 +78,3 @@ fun GreetingPageScreen(
         }
     }
 }
-
-@Composable
-fun TitleText(
-    modifier: Modifier = Modifier,
-    text: String
-) {
-    Text(
-        text = text,
-        modifier = modifier,
-        fontSize = 24.sp,
-        fontWeight = FontWeight.Bold
-    )
-}

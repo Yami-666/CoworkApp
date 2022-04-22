@@ -29,7 +29,7 @@ fun MainNavigationScreen(
 @Composable
 fun NavigationGraph(navController: NavHostController) {
     NavHost(navController, startDestination = BottomNavigationItem.Home.route) {
-        composable(NavScreens.BottomNavigationScreens.HomeScreen.route) { HomeScreen(navController) }
+        composable(NavScreens.BottomNavigationScreens.HomeScreen.route) { HomeScreen(/*navController*/) }
         composable(NavScreens.BottomNavigationScreens.ProfileScreen.route) { ProfileScreen(navController) }
         composable(NavScreens.BottomNavigationScreens.FavoriteScreen.route) { FavoriteScreen(navController) }
         composable(NavScreens.BottomNavigationScreens.BookedScreen.route) { BookedScreen(navController) }
